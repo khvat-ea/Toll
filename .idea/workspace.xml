@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f501c1-67d4-4cc4-b585-b728ff137f6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/jdev/dto/PointDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/test/java/jdev/dto/PointDTOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
@@ -44,13 +47,28 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="toll-github" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="toll-github" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
+                <item name="common" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="toll-github" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="toll-github" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -59,10 +77,17 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="a1307364165ea9f20b38f7cd046e942de96785ba" />
+        <entry key="$PROJECT_DIR$" value="205fe5c2972e54a457c96f43cd37a21888162602" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,7 +123,27 @@
       <command value="open toll-2017-gradle" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.toll-github [clean]">
+  <component name="RunManager" selected="Gradle.PointDTOTest.toJson">
+    <configuration name="PointDTOTest.toJson" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;jdev.dto.PointDTOTest.toJson&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":common:cleanTest" />
+            <option value=":common:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="toll-github [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -175,25 +220,6 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="toll-github:common [buildEnvironment]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/common" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="buildEnvironment" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="toll-github.test" />
       <option name="VM_PARAMETERS" />
@@ -242,17 +268,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.toll-github:common [buildEnvironment]" />
       <item itemvalue="Gradle.toll-github [build]" />
       <item itemvalue="Gradle.toll-github [assemble]" />
       <item itemvalue="Gradle.toll-github [buildDependents]" />
       <item itemvalue="Gradle.toll-github [clean]" />
+      <item itemvalue="Gradle.PointDTOTest.toJson" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PointDTOTest.toJson" />
         <item itemvalue="Gradle.toll-github [clean]" />
         <item itemvalue="Gradle.toll-github [buildDependents]" />
-        <item itemvalue="Gradle.toll-github:common [buildEnvironment]" />
         <item itemvalue="Gradle.toll-github [assemble]" />
         <item itemvalue="Gradle.toll-github [build]" />
       </list>
@@ -309,22 +335,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606305564283" />
-    <state width="746" height="247" key="GridCell.Tab.0.bottom" timestamp="1606309065303">
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom" timestamp="1606330434273">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="247" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606309065303" />
-    <state width="746" height="247" key="GridCell.Tab.0.center" timestamp="1606309065302">
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606330434273" />
+    <state width="1493" height="329" key="GridCell.Tab.0.center" timestamp="1606330434273">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="247" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606309065302" />
-    <state width="746" height="247" key="GridCell.Tab.0.left" timestamp="1606309065302">
+    <state width="1493" height="329" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606330434273" />
+    <state width="1493" height="329" key="GridCell.Tab.0.left" timestamp="1606330434273">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="247" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606309065302" />
-    <state width="746" height="247" key="GridCell.Tab.0.right" timestamp="1606309065302">
+    <state width="1493" height="329" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606330434273" />
+    <state width="1493" height="329" key="GridCell.Tab.0.right" timestamp="1606330434273">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="247" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606309065302" />
+    <state width="1493" height="329" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606330434273" />
     <state x="170" y="89" width="1038" height="707" key="SettingsEditor" timestamp="1606305716367">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
