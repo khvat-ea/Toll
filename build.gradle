@@ -42,6 +42,10 @@ project(':server-core'){
     dependencies{
         compile project(':common')
     }
+    task completeJar(type: OneJar) {
+        mainClass = 'jdev.servercore.Main'
+        archiveName = 'servercore.jar'
+    }
 }
 project(':tracker-core'){
     dependencies{
