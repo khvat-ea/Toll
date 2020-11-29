@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="jdev.dto.PointDTOTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-29T16:18:10" hostname="WIN-HCMNVMTKJHJ" time="0.254">
+<testsuite name="jdev.dto.PointDTOTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-29T16:29:38" hostname="WIN-HCMNVMTKJHJ" time="0.226">
   <properties/>
-  <testcase name="decodeDTO" classname="jdev.dto.PointDTOTest" time="0.254"/>
+  <testcase name="decodeDTO" classname="jdev.dto.PointDTOTest" time="0.226"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

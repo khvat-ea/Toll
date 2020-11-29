@@ -4,12 +4,14 @@
     <list default="true" id="f9f501c1-67d4-4cc4-b585-b728ff137f6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/jdev/dto/PointDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/jdev/dto/PointDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/classes/java/test/jdev/dto/PointDTOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/test/jdev/dto/PointDTOTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/packages/jdev.dto.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/packages/jdev.dto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/jdev/dto/PointDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/jdev/dto/PointDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/test/java/jdev/dto/PointDTOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/jdev/dto/PointDTOTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -339,22 +341,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606305564283" />
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1606666688219">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1606667376806">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606666688219" />
-    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1606666688219">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606667376806" />
+    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1606667376806">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606666688219" />
-    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1606666688219">
+    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606667376806" />
+    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1606667376806">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606666688219" />
-    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1606666688219">
+    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606667376806" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1606667376806">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606666688219" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606667376806" />
     <state x="170" y="89" width="1038" height="707" key="SettingsEditor" timestamp="1606305716367">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
