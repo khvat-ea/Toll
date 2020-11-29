@@ -33,6 +33,10 @@ project(':server-ui'){
     dependencies{
         compile project(':common')
     }
+    task completeJar(type: OneJar) {
+        mainClass = 'jdev.serverui.Main'
+        archiveName = 'serverui.jar'
+    }
 }
 project(':server-core'){
     dependencies{
