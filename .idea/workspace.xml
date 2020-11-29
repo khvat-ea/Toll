@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f501c1-67d4-4cc4-b585-b728ff137f6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server-core/src/test/java/jdev/dto/PointDTOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-ui/src/test/java/jdev/dto/PointDTOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker-ui/src/test/java/jdev/dto/PointDTOTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/jdev/dto/PointDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/jdev/dto/PointDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/test/jdev/dto/PointDTOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/test/jdev/dto/PointDTOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/packages/jdev.dto.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/packages/jdev.dto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/jdev/dto/PointDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/jdev/dto/PointDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/test/java/jdev/dto/PointDTOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/jdev/dto/PointDTOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +71,32 @@
                 <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="toll-github" type="f1a62948:ProjectNode" />
+                <item name="server-core" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="toll-github" type="f1a62948:ProjectNode" />
+                <item name="server-core" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="toll-github" type="f1a62948:ProjectNode" />
+                <item name="server-core" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="toll-github" type="f1a62948:ProjectNode" />
+                <item name="server-core" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -121,6 +143,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jdev.dto" />
+      <recent name="dto" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="gradle assemble" />
@@ -128,7 +156,7 @@
       <command value="open toll-2017-gradle" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.PointDTOTest.decodeDTO">
+  <component name="RunManager" selected="Gradle.PointDTOTest.toJson">
     <configuration name="PointDTOTest.decodeDTO" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -140,8 +168,8 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":common:cleanTest" />
-            <option value=":common:test" />
+            <option value=":server-core:cleanTest" />
+            <option value=":server-core:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -160,8 +188,8 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":common:cleanTest" />
-            <option value=":common:test" />
+            <option value=":tracker-ui:cleanTest" />
+            <option value=":tracker-ui:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -282,11 +310,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PointDTOTest.toJson" />
+        <item itemvalue="Gradle.PointDTOTest.toJson" />
         <item itemvalue="Gradle.PointDTOTest.decodeDTO" />
         <item itemvalue="Gradle.PointDTOTest.toJson" />
-        <item itemvalue="Gradle.toll-github [clean]" />
-        <item itemvalue="Gradle.toll-github [buildDependents]" />
-        <item itemvalue="Gradle.toll-github [assemble]" />
+        <item itemvalue="Gradle.PointDTOTest.decodeDTO" />
       </list>
     </recent_temporary>
   </component>
@@ -329,34 +357,38 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="77" key="#Project_Structure" timestamp="1606224514900">
+    <state x="361" y="77" key="#Project_Structure" timestamp="1606669302883">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="77" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1606224514900" />
+    <state x="361" y="77" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1606669302883" />
     <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605433748941">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1605433748941" />
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1606667562425">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1606667562425" />
     <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1606305564283">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606305564283" />
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1606667376806">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1606669478914">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606667376806" />
-    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1606667376806">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606669478914" />
+    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1606669478914">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606667376806" />
-    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1606667376806">
+    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606669478914" />
+    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1606669478914">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606667376806" />
-    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1606667376806">
+    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606669478914" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1606669478914">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606667376806" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606669478914" />
     <state x="170" y="89" width="1038" height="707" key="SettingsEditor" timestamp="1606305716367">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
