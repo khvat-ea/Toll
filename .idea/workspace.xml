@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f501c1-67d4-4cc4-b585-b728ff137f6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/jdev/dto/PointDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/test/java/jdev/dto/PointDTOTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/test/jdev/dto/PointDTOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/test/jdev/dto/PointDTOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/packages/jdev.dto.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/packages/jdev.dto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/test/java/jdev/dto/PointDTOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/jdev/dto/PointDTOTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +126,27 @@
       <command value="open toll-2017-gradle" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.PointDTOTest.toJson">
+  <component name="RunManager" selected="Gradle.PointDTOTest.decodeDTO">
+    <configuration name="PointDTOTest.decodeDTO" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;jdev.dto.PointDTOTest.decodeDTO&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":common:cleanTest" />
+            <option value=":common:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="PointDTOTest.toJson" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -175,25 +198,6 @@
         <option name="taskNames">
           <list>
             <option value="buildDependents" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="toll-github [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -268,19 +272,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.toll-github [build]" />
       <item itemvalue="Gradle.toll-github [assemble]" />
       <item itemvalue="Gradle.toll-github [buildDependents]" />
       <item itemvalue="Gradle.toll-github [clean]" />
       <item itemvalue="Gradle.PointDTOTest.toJson" />
+      <item itemvalue="Gradle.PointDTOTest.decodeDTO" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PointDTOTest.decodeDTO" />
         <item itemvalue="Gradle.PointDTOTest.toJson" />
         <item itemvalue="Gradle.toll-github [clean]" />
         <item itemvalue="Gradle.toll-github [buildDependents]" />
         <item itemvalue="Gradle.toll-github [assemble]" />
-        <item itemvalue="Gradle.toll-github [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -335,22 +339,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606305564283" />
-    <state width="1493" height="329" key="GridCell.Tab.0.bottom" timestamp="1606330434273">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1606666688219">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606330434273" />
-    <state width="1493" height="329" key="GridCell.Tab.0.center" timestamp="1606330434273">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606666688219" />
+    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1606666688219">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606330434273" />
-    <state width="1493" height="329" key="GridCell.Tab.0.left" timestamp="1606330434273">
+    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606666688219" />
+    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1606666688219">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606330434273" />
-    <state width="1493" height="329" key="GridCell.Tab.0.right" timestamp="1606330434273">
+    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606666688219" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1606666688219">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606330434273" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606666688219" />
     <state x="170" y="89" width="1038" height="707" key="SettingsEditor" timestamp="1606305716367">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
