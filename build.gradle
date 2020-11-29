@@ -26,7 +26,7 @@ project(':server-core'){
         compile project(':common')
     }
 }
-project(':tracker-ui'){
+project(':tracker-core'){
     dependencies{
         compile project(':common')
     }

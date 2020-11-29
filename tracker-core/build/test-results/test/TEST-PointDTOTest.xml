@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PointDTOTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-29T17:25:31" hostname="WIN-HCMNVMTKJHJ" time="0.257">
+  <properties/>
+  <testcase name="toJson" classname="PointDTOTest" time="0.233"/>
+  <testcase name="decodeDTO" classname="PointDTOTest" time="0.024"/>
+  <system-out><![CDATA[{"lat":56.0,"lon":74.0,"autoId":"o567gfd","time":1606670731269}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

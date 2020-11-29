@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f501c1-67d4-4cc4-b585-b728ff137f6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server-core/src/test/java/jdev/dto/PointDTOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-ui/src/test/java/jdev/dto/PointDTOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker-ui/src/test/java/jdev/dto/PointDTOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +153,27 @@
       <command value="open toll-2017-gradle" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.PointDTOTest.toJson">
+  <component name="RunManager" selected="Gradle.PointDTOTest">
+    <configuration name="PointDTOTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;PointDTOTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":tracker-core:cleanTest" />
+            <option value=":tracker-core:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="PointDTOTest.decodeDTO" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -197,7 +214,7 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="toll-github [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="toll-github [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -208,26 +225,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="assemble" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="toll-github [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="buildDependents" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -302,17 +300,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.toll-github [assemble]" />
-      <item itemvalue="Gradle.toll-github [buildDependents]" />
       <item itemvalue="Gradle.toll-github [clean]" />
       <item itemvalue="Gradle.PointDTOTest.toJson" />
       <item itemvalue="Gradle.PointDTOTest.decodeDTO" />
+      <item itemvalue="Gradle.toll-github [build]" />
+      <item itemvalue="Gradle.PointDTOTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PointDTOTest" />
+        <item itemvalue="Gradle.toll-github [build]" />
         <item itemvalue="Gradle.PointDTOTest.toJson" />
-        <item itemvalue="Gradle.PointDTOTest.toJson" />
-        <item itemvalue="Gradle.PointDTOTest.decodeDTO" />
         <item itemvalue="Gradle.PointDTOTest.toJson" />
         <item itemvalue="Gradle.PointDTOTest.decodeDTO" />
       </list>
@@ -373,26 +371,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606305564283" />
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1606669478914">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1606670742402">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606669478914" />
-    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1606669478914">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606670742402" />
+    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1606670742401">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606669478914" />
-    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1606669478914">
+    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606670742401" />
+    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1606670742401">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606669478914" />
-    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1606669478914">
+    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606670742401" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1606670742402">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606669478914" />
-    <state x="170" y="89" width="1038" height="707" key="SettingsEditor" timestamp="1606305716367">
+    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606670742402" />
+    <state x="170" y="89" width="1038" height="707" key="SettingsEditor" timestamp="1606670534540">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="170" y="89" width="1038" height="707" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1606305716367" />
+    <state x="170" y="89" width="1038" height="707" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1606670534540" />
     <state x="465" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1606307987424">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
