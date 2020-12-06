@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f501c1-67d4-4cc4-b585-b728ff137f6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/jdev/dto/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceGPS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSaveMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSendMsg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/test/jdev/dto/PointDTOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/distributions/common.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/distributions/common.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/libs/common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/packages/jdev.dto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/MainTracker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +84,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -127,7 +115,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -287,11 +275,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="Gradle.toll-github:server-core [clean]" />
       <item itemvalue="Gradle.toll-github:server-core [completeJar]" />
       <item itemvalue="Gradle.toll-github:common [clean]" />
       <item itemvalue="Gradle.toll-github:common [completeJar]" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
@@ -320,7 +308,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7ace1779-6a69-4212-b06d-adad6c6c53b0" name="Default Changelist" comment="" />
+      <changelist id="f9f501c1-67d4-4cc4-b585-b728ff137f6e" name="Default Changelist" comment="" />
       <created>1605379263657</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -354,6 +342,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1605433748941" />
+    <state x="414" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607274105257">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="414" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1607274105257" />
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1606667562425">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -362,30 +354,30 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606305564283" />
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1606676834479">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1606680494871">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606676834479" />
-    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1606676834479">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606680494871" />
+    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1606680494870">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606676834479" />
-    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1606676834479">
+    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606680494870" />
+    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1606680494870">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606676834479" />
-    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1606676834479">
+    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606680494870" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1606680494870">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606676834479" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606680494870" />
     <state x="170" y="89" width="1038" height="707" key="SettingsEditor" timestamp="1606670534540">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="170" y="89" width="1038" height="707" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1606670534540" />
-    <state x="465" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1606307987424">
+    <state x="465" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1607020885766">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1606307987424" />
+    <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1607020885766" />
     <state x="209" y="30" key="new project wizard" timestamp="1606303554600">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
