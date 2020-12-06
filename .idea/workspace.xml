@@ -2,11 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f501c1-67d4-4cc4-b585-b728ff137f6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceGPS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSaveMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSendMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker-core/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/MainTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/common.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/jdev/dto/PointDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/jdev/dto/PointDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/libs/tracker-core.jar" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/libs/tracker-core.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/libs/tracker.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/OneJar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/Boot$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/Boot$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/Boot$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/Boot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/Handler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/IProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$ByteCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$FileURLFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$FileURLFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$IURLFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$OneJarURLFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/OneJarFile$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/OneJarFile$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/OneJarFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/OneJarURLConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/doc/one-jar-license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/lib/common.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/lib/jackson-annotations-2.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/lib/jackson-core-2.8.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/lib/jackson-databind-2.8.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/main/main.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/tmp/completeJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/TrackerContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/TrackerContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/TrackerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/TrackerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceGPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceGPS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,27 +95,20 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="toll-github" type="f1a62948:ProjectNode" />
-                <item name="common" type="2d1252cf:ModuleNode" />
+                <item name="tracker-core" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="toll-github" type="f1a62948:ProjectNode" />
-                <item name="common" type="2d1252cf:ModuleNode" />
+                <item name="tracker-core" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="toll-github" type="f1a62948:ProjectNode" />
-                <item name="common" type="2d1252cf:ModuleNode" />
+                <item name="tracker-core" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="toll-github" type="f1a62948:ProjectNode" />
-                <item name="common" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -137,7 +173,7 @@
       <command value="open toll-2017-gradle" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.toll-github:common [completeJar]">
+  <component name="RunManager" selected="Application.TrackerMain">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdev.dto.Main" />
       <module name="toll-github.common.main" />
@@ -151,24 +187,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="toll-github:common [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/common" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="TrackerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdev.tracker.TrackerMain" />
+      <module name="toll-github.tracker-core.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdev.tracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="toll-github:common [completeJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -189,10 +219,29 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="toll-github:server-core [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="toll-github:tracker-core [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/server-core" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/tracker-core" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="toll-github:tracker-core [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/tracker-core" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -201,25 +250,6 @@
         <option name="taskNames">
           <list>
             <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="toll-github:server-core [completeJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/server-core" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="completeJar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -276,18 +306,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Gradle.toll-github:server-core [clean]" />
-      <item itemvalue="Gradle.toll-github:server-core [completeJar]" />
-      <item itemvalue="Gradle.toll-github:common [clean]" />
       <item itemvalue="Gradle.toll-github:common [completeJar]" />
+      <item itemvalue="Gradle.toll-github:tracker-core [clean]" />
+      <item itemvalue="Gradle.toll-github:tracker-core [build]" />
+      <item itemvalue="Application.TrackerMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TrackerMain" />
+        <item itemvalue="Gradle.toll-github:tracker-core [build]" />
+        <item itemvalue="Gradle.toll-github:tracker-core [clean]" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.toll-github:common [completeJar]" />
-        <item itemvalue="Gradle.toll-github:common [clean]" />
-        <item itemvalue="Gradle.toll-github:server-core [completeJar]" />
-        <item itemvalue="Gradle.toll-github:server-core [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -354,22 +384,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606305564283" />
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1606680494871">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1607281786677">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606680494871" />
-    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1606680494870">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1607281786677" />
+    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1607281786677">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606680494870" />
-    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1606680494870">
+    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1607281786677" />
+    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1607281786677">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606680494870" />
-    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1606680494870">
+    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1607281786677" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1607281786677">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606680494870" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1607281786677" />
     <state x="170" y="89" width="1038" height="707" key="SettingsEditor" timestamp="1606670534540">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -382,9 +412,17 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="209" y="30" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1606303554600" />
+    <state x="511" y="37" key="refactoring.ChangeSignatureDialog" timestamp="1607281492956">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="511" y="37" key="refactoring.ChangeSignatureDialog/0.0.1536.834@0.0.1536.834" timestamp="1607281492956" />
     <state x="439" y="101" width="672" height="677" key="run.anything.popup" timestamp="1606304088276">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="439" y="101" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1606304088276" />
+    <state x="431" y="155" key="search.everywhere.popup" timestamp="1607279574862">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1607279574862" />
   </component>
 </project>
