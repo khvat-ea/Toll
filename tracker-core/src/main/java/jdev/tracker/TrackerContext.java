@@ -6,7 +6,9 @@ import jdev.tracker.services.ServiceSendMsg;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
+import org.springframework.scheduling.TaskScheduler;
 import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 
 @Configuration
 @EnableScheduling
@@ -14,4 +16,15 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class TrackerContext {
     @Bean
     public ServiceGPS serviceGPS() {return new ServiceGPS();}
+
+    @Bean
+    public ServiceSendMsg serviceSendMsg() {return new ServiceSendMsg();}
+
+    @Bean
+    public TaskScheduler poolScheduler() {
+        ThreadPoolTaskScheduler scheduler = new ThreadPoolTaskScheduler();
+        scheduler.setThreadNamePrefix("poolScheduler");
+        scheduler.setPoolSize(10);
+        return scheduler;
+    }
 }

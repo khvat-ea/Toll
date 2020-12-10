@@ -2,54 +2,132 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f501c1-67d4-4cc4-b585-b728ff137f6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tracker-core/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker-core/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/libs/common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/jdev/dto/PointDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/jdev/dto/PointDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/libs/tracker-core.jar" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/libs/tracker-core.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/libs/tracker.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/OneJar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/Boot$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/Boot$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/Boot$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/Boot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/Handler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/Handler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/IProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$ByteCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$FileURLFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$FileURLFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$IURLFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$OneJarURLFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/Logger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/OneJarFile$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/OneJarFile$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/OneJarFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/com/simontuffs/onejar/OneJarURLConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/doc/one-jar-license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/lib/common.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/lib/jackson-annotations-2.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/lib/jackson-core-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/lib/jackson-databind-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/one-jar-build/main/main.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/tmp/completeJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/dto.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/OneJar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/Boot$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/Boot$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/Boot$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/Boot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/Handler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/IProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$ByteCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$FileURLFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$FileURLFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$IURLFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$OneJarURLFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/JarClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/OneJarFile$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/OneJarFile$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/OneJarFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/OneJarURLConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/doc/one-jar-license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/lib/jackson-annotations-2.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/lib/jackson-core-2.8.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/lib/jackson-databind-2.8.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/main/main.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/completeJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/classes/java/main/jdev/servercore/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/libs/server-core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/libs/servercore.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/OneJar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/Boot$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/Boot$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/Boot$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/Boot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/Handler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/IProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$ByteCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$FileURLFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$FileURLFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$IURLFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$OneJarURLFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/OneJarFile$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/OneJarFile$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/OneJarFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/OneJarURLConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/doc/one-jar-license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/lib/common.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/lib/jackson-annotations-2.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/lib/jackson-core-2.8.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/lib/jackson-databind-2.8.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/main/main.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/tmp/completeJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/classes/java/main/jdev/serverui/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/libs/server-ui.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/libs/serverui.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/OneJar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/Boot$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/Boot$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/Boot$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/Boot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/Handler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/IProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$ByteCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$FileURLFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$FileURLFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$IURLFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$OneJarURLFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/JarClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/OneJarFile$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/OneJarFile$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/OneJarFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/OneJarURLConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/doc/one-jar-license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/lib/common.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/lib/jackson-annotations-2.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/lib/jackson-core-2.8.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/lib/jackson-databind-2.8.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/main/main.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/tmp/completeJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/TrackerContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/TrackerContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceGPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceGPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceSaveMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceSaveMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceSendMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceSendMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/test/PointDTOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/distributions/tracker-core.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/distributions/tracker-core.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/libs/tracker-core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/classes/PointDTOTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/TEST-PointDTOTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/TrackerContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/TrackerContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/TrackerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/TrackerMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceGPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceGPS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSaveMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSaveMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSendMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSendMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,8 +198,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -174,19 +252,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.TrackerMain">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdev.dto.Main" />
-      <module name="toll-github.common.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdev.dto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TrackerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdev.tracker.TrackerMain" />
       <module name="toll-github.tracker-core.main" />
@@ -200,10 +265,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="toll-github:common [completeJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="toll-github [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/common" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -211,7 +276,26 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="completeJar" />
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="toll-github [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -305,19 +389,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Gradle.toll-github:common [completeJar]" />
       <item itemvalue="Gradle.toll-github:tracker-core [clean]" />
       <item itemvalue="Gradle.toll-github:tracker-core [build]" />
       <item itemvalue="Application.TrackerMain" />
+      <item itemvalue="Gradle.toll-github [clean]" />
+      <item itemvalue="Gradle.toll-github [build]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TrackerMain" />
         <item itemvalue="Gradle.toll-github:tracker-core [build]" />
+        <item itemvalue="Gradle.toll-github [build]" />
+        <item itemvalue="Gradle.toll-github [clean]" />
+        <item itemvalue="Application.TrackerMain" />
         <item itemvalue="Gradle.toll-github:tracker-core [clean]" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Gradle.toll-github:common [completeJar]" />
       </list>
     </recent_temporary>
   </component>
@@ -376,30 +460,46 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="414" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1607274105257" />
-    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1606667562425">
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1607281977210">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1606667562425" />
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1607281977210" />
     <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1606305564283">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606305564283" />
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1607281786677">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1607578180830">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1607281786677" />
-    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1607281786677">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1607578180830" />
+    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1607578180829">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1607281786677" />
-    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1607281786677">
+    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1607578180829" />
+    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1607578180829">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1607281786677" />
-    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1607281786677">
+    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1607578180829" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1607578180830">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1607281786677" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1607578180829" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1607365008044">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1607365008044" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1607365008043">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1607365008043" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1607365008043">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1607365008043" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1607365008044">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1607365008044" />
     <state x="170" y="89" width="1038" height="707" key="SettingsEditor" timestamp="1606670534540">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

@@ -11,14 +11,16 @@ public class ServiceGPS {
     // Выполнить по расписанию
     @Scheduled(cron = "${gps.cron}")
     // Эмулирование случайных значений (широта, долгота, азимут, мгн.скорость)
-    void emulateValue() throws JsonProcessingException {
+    void emulateValue() throws JsonProcessingException, InterruptedException {
         PointDTO pointDTO = new PointDTO();
 
+        // Радоминг точки GPS
         pointDTO.setLon(Math.random() * 180);
         pointDTO.setLat(Math.random() * 90);
         pointDTO.setAzimuth((int)(Math.random() * 360));
         pointDTO.setInstantSpeed(Math.random() * 130);
 
-        System.out.println(pointDTO.toJson());
+        // Запись точки в очередь
+        ServiceSaveMsg.putMsg(pointDTO.toJson());
     }
 }
