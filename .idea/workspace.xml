@@ -2,137 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f501c1-67d4-4cc4-b585-b728ff137f6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tracker-core/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/controllers/ControllerSendMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceTakeMsg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/jdev/dto/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/jdev/dto/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/jdev/dto/PointDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/jdev/dto/PointDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/libs/common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/libs/dto.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/OneJar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/Boot$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/Boot$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/Boot$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/Boot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/Handler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/Handler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/IProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$ByteCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$FileURLFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$FileURLFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$IURLFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$OneJarURLFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/JarClassLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/Logger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/OneJarFile$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/OneJarFile$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/OneJarFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/com/simontuffs/onejar/OneJarURLConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/doc/one-jar-license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/lib/jackson-annotations-2.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/lib/jackson-core-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/lib/jackson-databind-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/one-jar-build/main/main.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/tmp/completeJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/classes/java/main/jdev/servercore/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/libs/server-core.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/libs/servercore.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/OneJar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/Boot$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/Boot$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/Boot$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/Boot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/Handler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/Handler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/IProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$ByteCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$FileURLFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$FileURLFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$IURLFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$OneJarURLFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/JarClassLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/Logger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/OneJarFile$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/OneJarFile$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/OneJarFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/com/simontuffs/onejar/OneJarURLConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/doc/one-jar-license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/lib/common.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/lib/jackson-annotations-2.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/lib/jackson-core-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/lib/jackson-databind-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/one-jar-build/main/main.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/tmp/completeJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/classes/java/main/jdev/serverui/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/libs/server-ui.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/libs/serverui.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/OneJar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/Boot$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/Boot$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/Boot$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/Boot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/Handler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/Handler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/IProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$ByteCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$FileURLFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$FileURLFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$IURLFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/JarClassLoader$OneJarURLFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/JarClassLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/Logger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/OneJarFile$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/OneJarFile$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/OneJarFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/com/simontuffs/onejar/OneJarURLConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/doc/one-jar-license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/lib/common.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/lib/jackson-annotations-2.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/lib/jackson-core-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/lib/jackson-databind-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/one-jar-build/main/main.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/tmp/completeJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/TrackerContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/TrackerContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/TrackerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/TrackerMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceGPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceGPS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceSaveMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceSaveMsg.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceSendMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceSendMsg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/test/PointDTOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/distributions/tracker-core.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/distributions/tracker-core.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/libs/tracker-core.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/classes/PointDTOTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tracker-core/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/TEST-PointDTOTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/TrackerContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/TrackerContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceGPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceGPS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSaveMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSaveMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/resources/main/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/TrackerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/TrackerMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSendMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSendMsg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracker-core/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/resources/logback.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="129" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -173,6 +74,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="toll-github" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="toll-github" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="toll-github" type="f1a62948:ProjectNode" />
                 <item name="tracker-core" type="2d1252cf:ModuleNode" />
               </path>
               <path>
@@ -198,8 +110,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -228,9 +141,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-building-blocks" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -252,7 +166,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.TrackerMain">
-    <configuration name="TrackerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TrackerMain" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdev.tracker.TrackerMain" />
       <module name="toll-github.tracker-core.main" />
       <extension name="coverage">
@@ -389,18 +303,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TrackerMain" />
       <item itemvalue="Gradle.toll-github:tracker-core [clean]" />
       <item itemvalue="Gradle.toll-github:tracker-core [build]" />
-      <item itemvalue="Application.TrackerMain" />
       <item itemvalue="Gradle.toll-github [clean]" />
       <item itemvalue="Gradle.toll-github [build]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.toll-github:tracker-core [build]" />
         <item itemvalue="Gradle.toll-github [build]" />
+        <item itemvalue="Gradle.toll-github:tracker-core [build]" />
         <item itemvalue="Gradle.toll-github [clean]" />
-        <item itemvalue="Application.TrackerMain" />
         <item itemvalue="Gradle.toll-github:tracker-core [clean]" />
       </list>
     </recent_temporary>
@@ -448,10 +361,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="77" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1606669302883" />
-    <state x="499" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1606671688202">
+    <state x="499" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1608024961520">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="499" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1606671688202" />
+    <state x="499" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1608024961520" />
     <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605433748941">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -460,54 +373,62 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="414" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1607274105257" />
+    <state width="664" height="438" key="DebuggerActiveHint" timestamp="1608202048122">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="664" height="438" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1608202048122" />
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1607281977210">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1607281977210" />
-    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1606305564283">
+    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1608022511621">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606305564283" />
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1607578180830">
+    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1608022511621" />
+    <state width="1493" height="225" key="GridCell.Tab.0.bottom" timestamp="1608203181912">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1607578180830" />
-    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1607578180829">
+    <state width="1493" height="225" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1608203181912" />
+    <state width="1493" height="225" key="GridCell.Tab.0.center" timestamp="1608203181912">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1607578180829" />
-    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1607578180829">
+    <state width="1493" height="225" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1608203181912" />
+    <state width="1493" height="225" key="GridCell.Tab.0.left" timestamp="1608203181911">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1607578180829" />
-    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1607578180830">
+    <state width="1493" height="225" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1608203181911" />
+    <state width="1493" height="225" key="GridCell.Tab.0.right" timestamp="1608203181912">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1607578180829" />
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1607365008044">
+    <state width="1493" height="225" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1608203181912" />
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1608202420359">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1607365008044" />
-    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1607365008043">
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1608202420359" />
+    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1608202420359">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1607365008043" />
-    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1607365008043">
+    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1608202420359" />
+    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1608202420359">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1607365008043" />
-    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1607365008044">
+    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1608202420359" />
+    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1608202420359">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1607365008044" />
-    <state x="170" y="89" width="1038" height="707" key="SettingsEditor" timestamp="1606670534540">
+    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1608202420359" />
+    <state x="170" y="89" width="1038" height="707" key="SettingsEditor" timestamp="1607978569632">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="170" y="89" width="1038" height="707" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1606670534540" />
-    <state x="465" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1607020885766">
+    <state x="170" y="89" width="1038" height="707" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1607978569632" />
+    <state width="775" height="424" key="XDebugger.FullValuePopup" timestamp="1608201788224">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1607020885766" />
+    <state width="775" height="424" key="XDebugger.FullValuePopup/0.0.1536.834@0.0.1536.834" timestamp="1608201788224" />
+    <state x="214" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1608200772508">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="214" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1608200772508" />
     <state x="209" y="30" key="new project wizard" timestamp="1606303554600">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -516,13 +437,44 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="511" y="37" key="refactoring.ChangeSignatureDialog/0.0.1536.834@0.0.1536.834" timestamp="1607281492956" />
-    <state x="439" y="101" width="672" height="677" key="run.anything.popup" timestamp="1606304088276">
+    <state x="439" y="101" width="672" height="677" key="run.anything.popup" timestamp="1608030813572">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="439" y="101" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1606304088276" />
+    <state x="439" y="101" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1608030813572" />
     <state x="431" y="155" key="search.everywhere.popup" timestamp="1607279574862">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="431" y="155" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1607279574862" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceTakeMsg.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceTakeMsg.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.7.RELEASE/8f92e4f93393dda9c11d4839a10c4aa66941870e/spring-web-5.0.7.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java</url>
+          <line>723</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSendMsg.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/toll_github$TrackerMain.ic" NAME="TrackerMain Coverage Results" MODIFIED="1608197031099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>jdev.tracker.*</FILTER>
+    </SUITE>
   </component>
 </project>

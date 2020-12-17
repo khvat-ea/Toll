@@ -1,40 +1,37 @@
 package jdev.tracker.services;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import jdev.dto.PointDTO;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.slf4j.MDC;
-import org.slf4j.spi.MDCAdapter;
-import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-
+import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.concurrent.BlockingQueue;
 
 @Service
 public class ServiceSendMsg {
-    Logger logger = LoggerFactory.getLogger("jsonLogger");
+    @Autowired
+    RestTemplate restTemplate;
 
-    @Scheduled(cron = "${printToLog.cron}")
-    // Отправить сообщение в лог
-    void printToLog() throws InterruptedException{
-        logger.info(ServiceSaveMsg.takeMsg());
+    public List<String> getQueueMsg(){
+        BlockingQueue bq = ServiceSaveMsg.getBlockingQueue();
+        List<String> list = new ArrayList<>(bq);
+        return list;
     }
 
-/*    @Scheduled(cron = "${sendToServer.cron}")
-    public List<String> sendToServer(){
-        List<String> l = new ArrayList<>();
+//    @Scheduled(cron = "${sendToServer.cron}")
+    public void sendQueueMsg() throws IOException {
+        final String url = "http://localhost:8081/point/";
+        RestTemplate restTemplate_1 = new RestTemplate();
+        BlockingQueue bq = ServiceSaveMsg.getBlockingQueue();
+        List<String> listOfPoints = new ArrayList<>(bq);
 
-        l = ServiceSaveMsg.getBlockingQueue().stream()
-                .collect(Collectors.toList());
-
-        l.stream().forEach(x -> System.out.println(x));
-        System.out.println("\n");
-        ServiceSaveMsg.getBlockingQueue().removeAll(l);
-        return l;
-    }*/
+        restTemplate.postForObject(
+                url,
+                listOfPoints,
+                ResponseEntity.class);
+//        System.out.println(re.getStatusCode().getReasonPhrase());
+    }
 }
