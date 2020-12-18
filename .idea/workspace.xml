@@ -2,30 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f501c1-67d4-4cc4-b585-b728ff137f6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/controllers/ControllerSendMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceTakeMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coord.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-core/src/main/java/jdev/servercore/CoreContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-core/src/main/java/jdev/servercore/controllers/ControllerTakeMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-core/src/main/java/jdev/servercore/services/ServiceTakeMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-core/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-core/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker-core/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/jdev/dto/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/jdev/dto/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/jdev/dto/PointDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/jdev/dto/PointDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/distributions/common.tar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/distributions/common.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/distributions/common.zip" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/distributions/common.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/libs/common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/packages/jdev.dto.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/packages/jdev.dto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/classes/java/main/jdev/servercore/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/distributions/server-core.tar" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/distributions/server-core.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/distributions/server-core.zip" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/distributions/server-core.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/libs/server-core.jar" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/libs/server-core.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/reports/tests/test/packages/jdev.dto.html" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/reports/tests/test/packages/jdev.dto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/src/main/java/jdev/servercore/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/src/main/java/jdev/servercore/CoreMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/distributions/server-ui.tar" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/distributions/server-ui.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/distributions/server-ui.zip" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/distributions/server-ui.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/libs/server-ui.jar" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/libs/server-ui.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/reports/tests/test/packages/jdev.dto.html" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/reports/tests/test/packages/jdev.dto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/TrackerContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/TrackerContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/TrackerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/TrackerMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/controllers/ControllerSendMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/controllers/ControllerSendMsg.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceGPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceGPS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceSaveMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceSaveMsg.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceSendMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceSendMsg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/resources/main/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceTakeMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/distributions/tracker-core.tar" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/distributions/tracker-core.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/distributions/tracker-core.zip" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/distributions/tracker-core.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/libs/tracker-core.jar" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/libs/tracker-core.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/classes/PointDTOTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/classes/PointDTOTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/TEST-PointDTOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/test-results/test/TEST-PointDTOTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/TrackerContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/TrackerContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/TrackerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/TrackerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/controllers/ControllerSendMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/controllers/ControllerSendMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceGPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceGPS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSaveMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSaveMsg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSendMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSendMsg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceTakeMsg.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,9 +150,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -141,9 +181,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-building-blocks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server-core/src/main/resources" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -157,6 +198,9 @@
       <recent name="" />
       <recent name="dto" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MY\TUSUR\TUSUR_Exercises\toll-github\server-core\src\main\resources" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -166,6 +210,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.TrackerMain">
+    <configuration name="CoreMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdev.servercore.CoreMain" />
+      <module name="toll-github.server-core.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdev.servercore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrackerMain" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdev.tracker.TrackerMain" />
       <module name="toll-github.tracker-core.main" />
@@ -304,6 +361,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.TrackerMain" />
+      <item itemvalue="Application.CoreMain" />
       <item itemvalue="Gradle.toll-github:tracker-core [clean]" />
       <item itemvalue="Gradle.toll-github:tracker-core [build]" />
       <item itemvalue="Gradle.toll-github [clean]" />
@@ -311,6 +369,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoreMain" />
         <item itemvalue="Gradle.toll-github [build]" />
         <item itemvalue="Gradle.toll-github:tracker-core [build]" />
         <item itemvalue="Gradle.toll-github [clean]" />
@@ -356,6 +415,9 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="361" y="77" key="#Project_Structure" timestamp="1606669302883">
       <screen x="0" y="0" width="1536" height="834" />
@@ -385,38 +447,38 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1608022511621" />
-    <state width="1493" height="225" key="GridCell.Tab.0.bottom" timestamp="1608203181912">
+    <state width="724" height="228" key="GridCell.Tab.0.bottom" timestamp="1608286092871">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="225" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1608203181912" />
-    <state width="1493" height="225" key="GridCell.Tab.0.center" timestamp="1608203181912">
+    <state width="724" height="228" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1608286092871" />
+    <state width="724" height="228" key="GridCell.Tab.0.center" timestamp="1608286092870">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="225" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1608203181912" />
-    <state width="1493" height="225" key="GridCell.Tab.0.left" timestamp="1608203181911">
+    <state width="724" height="228" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1608286092870" />
+    <state width="724" height="228" key="GridCell.Tab.0.left" timestamp="1608286092870">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="225" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1608203181911" />
-    <state width="1493" height="225" key="GridCell.Tab.0.right" timestamp="1608203181912">
+    <state width="724" height="228" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1608286092870" />
+    <state width="724" height="228" key="GridCell.Tab.0.right" timestamp="1608286092870">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="225" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1608203181912" />
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1608202420359">
+    <state width="724" height="228" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1608286092870" />
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1608230043006">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1608202420359" />
-    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1608202420359">
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1608230043006" />
+    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1608230043006">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1608202420359" />
-    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1608202420359">
+    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1608230043006" />
+    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1608230043006">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1608202420359" />
-    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1608202420359">
+    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1608230043006" />
+    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1608230043006">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1608202420359" />
+    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1608230043006" />
     <state x="170" y="89" width="1038" height="707" key="SettingsEditor" timestamp="1607978569632">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -425,10 +487,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="775" height="424" key="XDebugger.FullValuePopup/0.0.1536.834@0.0.1536.834" timestamp="1608201788224" />
-    <state x="214" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1608200772508">
+    <state x="214" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1608233322548">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="214" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1608200772508" />
+    <state x="214" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1608233322548" />
     <state x="209" y="30" key="new project wizard" timestamp="1606303554600">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -450,24 +512,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceTakeMsg.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceTakeMsg.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$PROJECT_DIR$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.7.RELEASE/8f92e4f93393dda9c11d4839a10c4aa66941870e/spring-web-5.0.7.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java</url>
           <line>723</line>
           <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSendMsg.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

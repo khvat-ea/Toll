@@ -1,7 +1,10 @@
 package jdev.tracker.services;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -12,26 +15,26 @@ import java.util.concurrent.BlockingQueue;
 
 @Service
 public class ServiceSendMsg {
-    @Autowired
-    RestTemplate restTemplate;
+    private static final Logger LOG_ERRORS = LoggerFactory.getLogger("allError.TrackerCore");
+    private List<String> list;
 
-    public List<String> getQueueMsg(){
-        BlockingQueue bq = ServiceSaveMsg.getBlockingQueue();
-        List<String> list = new ArrayList<>(bq);
+    @Autowired
+    ServiceSaveMsg serviceSaveMsg;
+
+    public List<String> sendQueueMsg() {
+        BlockingQueue bq = serviceSaveMsg.getBlockingQueue();
+        list = new ArrayList<>(bq);
+        cleanDump();
+
         return list;
     }
 
-//    @Scheduled(cron = "${sendToServer.cron}")
-    public void sendQueueMsg() throws IOException {
-        final String url = "http://localhost:8081/point/";
-        RestTemplate restTemplate_1 = new RestTemplate();
-        BlockingQueue bq = ServiceSaveMsg.getBlockingQueue();
-        List<String> listOfPoints = new ArrayList<>(bq);
-
-        restTemplate.postForObject(
-                url,
-                listOfPoints,
-                ResponseEntity.class);
-//        System.out.println(re.getStatusCode().getReasonPhrase());
+    private void cleanDump(){
+        try {
+            serviceSaveMsg.getBlockingQueue().removeAll(list);
+        }
+        catch (Exception ex){
+            LOG_ERRORS.error("Неудачная попытка очистки очереди: " + ex.getMessage());
+        }
     }
 }

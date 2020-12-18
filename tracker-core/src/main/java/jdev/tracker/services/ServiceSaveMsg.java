@@ -1,24 +1,40 @@
 package jdev.tracker.services;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class ServiceSaveMsg {
+    private static final Logger LOG_ERRORS = LoggerFactory.getLogger("allError.TrackerCore");
+    
     // Создан объект блокирующей очереди по типу FIFO
-    private static BlockingQueue<String> blockingQueue = new LinkedBlockingQueue<>(100);
+    private BlockingQueue<String> blockingQueue = new LinkedBlockingQueue<>(100);
 
     // Запиcь в очередь
-    public static void putMsg(String msg) throws InterruptedException {
-        blockingQueue.put(msg);
+    public void putMsg(String msg) {
+        try {
+            blockingQueue.put(msg);
+        }
+        catch (InterruptedException interruptedEx){
+            LOG_ERRORS.error("Неудачная попытка сделать запись в очередь: " + interruptedEx.getMessage());
+        }
     }
 
     // Чтение из очереди
-    public static String takeMsg() throws InterruptedException {
-        return blockingQueue.take();
+    public String takeMsg() throws InterruptedException {
+        try {
+            return blockingQueue.take();
+        }
+        catch (InterruptedException interruptedEx){
+            LOG_ERRORS.error("Неудачная попытка получить элемент из очереди: " + interruptedEx.getMessage());
+        }
+        return  null;
     }
 
     // Получение очереди сообщений
-    public static BlockingQueue<String> getBlockingQueue() {
+    public BlockingQueue<String> getBlockingQueue() {
         return blockingQueue;
     }
 }

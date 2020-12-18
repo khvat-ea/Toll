@@ -21,9 +21,12 @@ public class TrackerContext {
     public ServiceSendMsg serviceSendMsg() {return new ServiceSendMsg();}
 
     @Bean
+    public ServiceSaveMsg serviceSaveMsg() {return new ServiceSaveMsg();}
+
+    @Bean
     public TaskScheduler poolScheduler() {
         ThreadPoolTaskScheduler scheduler = new ThreadPoolTaskScheduler();
-        scheduler.setThreadNamePrefix("poolScheduler");
+        scheduler.setThreadNamePrefix("TrackerCore_pool_");
         scheduler.setPoolSize(10);
         return scheduler;
     }

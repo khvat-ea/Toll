@@ -2,16 +2,23 @@ package jdev.tracker.services;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import jdev.dto.PointDTO;
-import org.springframework.beans.factory.annotation.Value;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 @Service
 public class ServiceGPS {
+    private static final Logger LOG_ERRORS = LoggerFactory.getLogger("allError.TrackerCore");
+
+    @Autowired
+    ServiceSaveMsg serviceSaveMsg;
+
     // Выполнить по расписанию
     @Scheduled(cron = "${gps.cron}")
     // Эмулирование случайных значений (широта, долгота, азимут, мгн.скорость)
-    void emulateValue() throws JsonProcessingException, InterruptedException {
+    void emulateValue() {
         PointDTO pointDTO = new PointDTO();
 
         // Радоминг точки GPS
@@ -21,6 +28,12 @@ public class ServiceGPS {
         pointDTO.setInstantSpeed(Math.random() * 130);
 
         // Запись точки в очередь
-        ServiceSaveMsg.putMsg(pointDTO.toJson());
+        try {
+            serviceSaveMsg.putMsg(pointDTO.toJson());
+        }
+        catch (JsonProcessingException JsonEx){
+            LOG_ERRORS.error("Неудачная попытка сформировать JSON описание для PointDTO: " + JsonEx.getMessage());
+        }
+
     }
 }

@@ -9,7 +9,6 @@ import org.springframework.web.client.RestTemplate;
 
 
 @SpringBootApplication
-//@ComponentScan({"services"})
 public class TrackerMain {
     public static void main(String[] args) {
         SpringApplication.run(TrackerMain.class, args);
