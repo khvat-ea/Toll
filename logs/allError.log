@@ -1,0 +1,6 @@
+13:32:12.076 [allError.ServerCore] - I/O error on POST request for "http://localhost:8081/point/": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+13:32:17.005 [allError.ServerCore] - I/O error on POST request for "http://localhost:8081/point/": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+13:32:22.007 [allError.ServerCore] - I/O error on POST request for "http://localhost:8081/point/": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+13:32:27.008 [allError.ServerCore] - I/O error on POST request for "http://localhost:8081/point/": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+13:32:32.033 [allError.ServerCore] - I/O error on POST request for "http://localhost:8081/point/": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+13:32:37.018 [allError.ServerCore] - I/O error on POST request for "http://localhost:8081/point/": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
