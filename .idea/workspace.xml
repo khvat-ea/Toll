@@ -2,58 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f501c1-67d4-4cc4-b585-b728ff137f6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server-ui/src/main/java/jdev/serverui/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-ui/src/main/java/jdev/serverui/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-ui/src/main/resources/templates/css/img/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-ui/src/main/resources/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-ui/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-ui/src/main/resources/templates/payments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-ui/src/main/resources/templates/registerClient.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-ui/src/main/resources/templates/registerManager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-ui/src/main/resources/templates/routes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-core/src/test/java/jdev/servercore/services/ServiceTakeMsgTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracker-core/src/test/java/jdev/tracker/services/ServiceSaveMsgTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/distributions/common.tar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/distributions/common.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/distributions/common.zip" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/distributions/common.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/libs/common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/packages/jdev.dto.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/reports/tests/test/packages/jdev.dto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/distributions/server-core.tar" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/distributions/server-core.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/distributions/server-core.zip" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/distributions/server-core.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/libs/server-core.jar" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/libs/server-core.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/reports/tests/test/packages/jdev.dto.html" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/reports/tests/test/packages/jdev.dto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-core/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/classes/java/main/jdev/serverui/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/distributions/server-ui.tar" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/distributions/server-ui.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/distributions/server-ui.zip" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/distributions/server-ui.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/libs/server-ui.jar" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/libs/server-ui.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/reports/tests/test/packages/jdev.dto.html" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/reports/tests/test/packages/jdev.dto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-ui/src/main/java/jdev/serverui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-ui/src/main/java/jdev/serverui/UIMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/distributions/tracker-core.tar" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/distributions/tracker-core.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/distributions/tracker-core.zip" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/distributions/tracker-core.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/libs/tracker-core.jar" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/libs/tracker-core.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/classes/PointDTOTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/classes/PointDTOTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/TEST-PointDTOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/test-results/test/TEST-PointDTOTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/jdev/dto/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/jdev/dto/PointDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/test/jdev/dto/PointDTOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/distributions/common.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/distributions/common.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/common.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/reports/tests/test/packages/jdev.dto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/classes/java/main/jdev/servercore/CoreContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/classes/java/main/jdev/servercore/CoreMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/classes/java/main/jdev/servercore/controllers/ControllerTakeMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/classes/java/main/jdev/servercore/services/ServiceTakeMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/classes/java/test/jdev/dto/PointDTOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/distributions/server-core.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/distributions/server-core.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/libs/server-core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/reports/tests/test/packages/jdev.dto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/resources/main/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/src/main/java/jdev/servercore/CoreContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/src/main/java/jdev/servercore/CoreContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/src/main/java/jdev/servercore/services/ServiceTakeMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/src/main/java/jdev/servercore/services/ServiceTakeMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-core/src/test/java/jdev/dto/PointDTOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-core/src/test/java/jdev/dto/PointDTOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/classes/java/main/jdev/serverui/MvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/classes/java/main/jdev/serverui/UIMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/classes/java/main/jdev/serverui/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/classes/java/test/jdev/dto/PointDTOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/distributions/server-ui.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/distributions/server-ui.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/libs/server-ui.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/reports/tests/test/classes/jdev.dto.PointDTOTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/reports/tests/test/packages/jdev.dto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/resources/main/templates/css/img/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/resources/main/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/resources/main/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/resources/main/templates/payments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/resources/main/templates/registerClient.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/resources/main/templates/registerManager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/resources/main/templates/routes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/test-results/test/TEST-jdev.dto.PointDTOTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-ui/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/TrackerContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/TrackerMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/controllers/ControllerSendMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceGPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceSaveMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/main/jdev/tracker/services/ServiceSendMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/classes/java/test/PointDTOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/distributions/tracker-core.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/distributions/tracker-core.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/libs/tracker-core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/classes/PointDTOTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/resources/main/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/TEST-PointDTOTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSaveMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSaveMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSendMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracker-core/src/main/java/jdev/tracker/services/ServiceSendMsg.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +185,7 @@
         <option value="FxmlFile" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -172,6 +217,9 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/server-ui/src/main/resources/templates" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -179,6 +227,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="jdev.servercore.services" />
+      <recent name="jdev.tracker.services" />
+      <recent name="jdev.tracker.controllers" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="jdev.dto" />
       <recent name="jdev.servercore" />
@@ -198,20 +255,7 @@
       <command value="open toll-2017-gradle" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.UIMain">
-    <configuration name="CoreMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdev.servercore.CoreMain" />
-      <module name="toll-github.server-core.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdev.servercore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.ServiceTakeMsgTest.takeQueueMsgIntegration">
     <configuration name="TrackerMain" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdev.tracker.TrackerMain" />
       <module name="toll-github.tracker-core.main" />
@@ -225,18 +269,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UIMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdev.serverui.UIMain" />
-      <module name="toll-github.server-ui.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdev.serverui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="ServiceSaveMsgTest.getBlockingQueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;jdev.tracker.services.ServiceSaveMsgTest.getBlockingQueue&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":tracker-core:cleanTest" />
+            <option value=":tracker-core:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ServiceSendMsgTest.sendQueueMsg" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;jdev.tracker.services.ServiceSendMsgTest.sendQueueMsg&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":tracker-core:cleanTest" />
+            <option value=":tracker-core:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ServiceTakeMsgTest.takeQueueMsgIntegration" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;jdev.servercore.services.ServiceTakeMsgTest.takeQueueMsgIntegration&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":server-core:cleanTest" />
+            <option value=":server-core:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="toll-github [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -269,25 +360,6 @@
         <option name="taskNames">
           <list>
             <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="toll-github:tracker-core [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/tracker-core" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -344,19 +416,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.TrackerMain" />
-      <item itemvalue="Application.CoreMain" />
-      <item itemvalue="Gradle.toll-github:tracker-core [build]" />
+      <item itemvalue="Gradle.ServiceSaveMsgTest.getBlockingQueue" />
+      <item itemvalue="Gradle.ServiceSendMsgTest.sendQueueMsg" />
+      <item itemvalue="Gradle.ServiceTakeMsgTest.takeQueueMsgIntegration" />
       <item itemvalue="Gradle.toll-github [clean]" />
       <item itemvalue="Gradle.toll-github [build]" />
-      <item itemvalue="Application.UIMain" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UIMain" />
-        <item itemvalue="Application.CoreMain" />
+        <item itemvalue="Gradle.ServiceTakeMsgTest.takeQueueMsgIntegration" />
         <item itemvalue="Gradle.toll-github [build]" />
-        <item itemvalue="Gradle.toll-github:tracker-core [build]" />
         <item itemvalue="Gradle.toll-github [clean]" />
+        <item itemvalue="Gradle.ServiceSendMsgTest.sendQueueMsg" />
+        <item itemvalue="Gradle.ServiceSaveMsgTest.getBlockingQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -414,6 +486,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1605433748941" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1608533250125">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1608533250125" />
+    <state x="639" y="173" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1608458077035">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="639" y="173" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1608458077035" />
     <state x="414" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607274105257">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -430,38 +510,38 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1608022511621" />
-    <state width="1493" height="228" key="GridCell.Tab.0.bottom" timestamp="1608403996585">
+    <state width="1493" height="228" key="GridCell.Tab.0.bottom" timestamp="1608557203545">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="228" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1608403996585" />
-    <state width="1493" height="228" key="GridCell.Tab.0.center" timestamp="1608403996585">
+    <state width="1493" height="228" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1608557203545" />
+    <state width="1493" height="228" key="GridCell.Tab.0.center" timestamp="1608557203545">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="228" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1608403996585" />
-    <state width="1493" height="228" key="GridCell.Tab.0.left" timestamp="1608403996585">
+    <state width="1493" height="228" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1608557203545" />
+    <state width="1493" height="228" key="GridCell.Tab.0.left" timestamp="1608557203545">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="228" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1608403996585" />
-    <state width="1493" height="228" key="GridCell.Tab.0.right" timestamp="1608403996585">
+    <state width="1493" height="228" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1608557203545" />
+    <state width="1493" height="228" key="GridCell.Tab.0.right" timestamp="1608557203545">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="228" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1608403996585" />
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1608396149119">
+    <state width="1493" height="228" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1608557203545" />
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1608554029506">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1608396149119" />
-    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1608396149119">
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1608554029506" />
+    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1608554029506">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1608396149119" />
-    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1608396149119">
+    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1608554029506" />
+    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1608554029506">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1608396149119" />
-    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1608396149119">
+    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1608554029506" />
+    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1608554029506">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1608396149119" />
+    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1608554029506" />
     <state x="170" y="89" width="1038" height="707" key="SettingsEditor" timestamp="1607978569632">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -474,6 +554,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="214" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1608233322548" />
+    <state x="680" y="92" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608555921129">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="680" y="92" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1608555921129" />
     <state x="209" y="30" key="new project wizard" timestamp="1606303554600">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

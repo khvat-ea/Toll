@@ -17,8 +17,11 @@ public class ServiceTakeMsg {
     private static final Logger LOG_ERRORS = LoggerFactory.getLogger("allError.ServerCore");
     private static final Logger LOG_TRACE = LoggerFactory.getLogger("allTrace.ServerCore");
 
-    @Autowired
-    RestTemplate restTemplate;
+    private final RestTemplate restTemplate;
+
+    public ServiceTakeMsg(@Autowired RestTemplate restTemplate){
+        this.restTemplate = restTemplate;
+    }
 
     @Scheduled(cron = "${takeFromServer.cron}")
     public List<String> takeQueueMsg(){
