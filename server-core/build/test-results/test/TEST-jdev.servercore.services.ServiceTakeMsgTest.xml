@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="jdev.servercore.services.ServiceTakeMsgTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-21T13:26:46" hostname="WIN-HCMNVMTKJHJ" time="0.44">
+<testsuite name="jdev.servercore.services.ServiceTakeMsgTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-22T12:16:51" hostname="WIN-HCMNVMTKJHJ" time="0.924">
   <properties/>
-  <testcase name="takeQueueMsgIntegration" classname="jdev.servercore.services.ServiceTakeMsgTest" time="0.44"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="takeQueueMsgIntegration" classname="jdev.servercore.services.ServiceTakeMsgTest" time="0.924"/>
+  <system-out><![CDATA[
+
+	*+*+*+*+*+*---> is JSON-schema valid? = true
+	*+*+*+*+*+*---> Value for analysis = {"lat":68.8617640190212,"lon":90.9801403679964,"azimuth":138,"instantSpeed":107.0937766745954,"autoId":"null","time":-1}
+
+
+]]></system-out>
   <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
 SLF4J: Found binding in [jar:file:/C:/MY/TUSUR/TUSUR_Exercises/toll-github/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-log4j12/1.7.25/110cefe2df103412849d72ef7a67e4e91e4266b4/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: Found binding in [jar:file:/C:/MY/TUSUR/TUSUR_Exercises/toll-github/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j-impl/2.10.0/8e4e0a30736175e31c7f714d95032c1734cfbdea/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: Found binding in [jar:file:/C:/MY/TUSUR/TUSUR_Exercises/toll-github/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+log4j:WARN No appenders could be found for logger (org.springframework.web.client.RestTemplate).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
 ]]></system-err>
 </testsuite>
