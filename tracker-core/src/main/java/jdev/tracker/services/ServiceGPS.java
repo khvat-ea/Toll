@@ -30,6 +30,7 @@ public class ServiceGPS {
         // Запись точки в очередь
         try {
             serviceSaveMsg.putMsg(pointDTO.toJson());
+            System.out.println("Take & save point.");
         }
         catch (JsonProcessingException JsonEx){
             LOG_ERRORS.error("Неудачная попытка сформировать JSON описание для PointDTO: " + JsonEx.getMessage());

@@ -13,13 +13,18 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.web.client.RestTemplate;
 
 import java.io.File;
 import java.io.IOException;
 import java.net.URI;
 
+@ActiveProfiles({"Test"})
 @RunWith(MockitoJUnitRunner.class)
+// !!! Для корректного выполнения теста "takeQueueMsgIntegration()"
+// должен быть запущен сервис "TrackerMain", т.к. он формирует координаты,
+// которые забираются в тесте методом POST
 public class ServiceTakeMsgTest {
 
     @Mock
