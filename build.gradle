@@ -99,9 +99,11 @@ project(':server-core'){
         compile(group: "com.github.java-json-tools", name: "json-schema-validator", version: "2.2.14")
 
         // Для работы с БД
-        compile("org.springframework.boot:spring-boot-starter-data-jpa")
-        compile("org.liquibase:liquibase-core")
-        compile("com.h2database:h2")
+        compile('org.springframework.boot:spring-boot-starter-data-jpa'){
+            exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+        }
+        compile group: 'org.liquibase', name: 'liquibase-core', version: '3.5.3'
+        compile group: 'com.h2database', name: 'h2', version: '1.4.200'
     }
     task completeJar(type: OneJar) {
         mainClass = 'jdev.servercore.Main'

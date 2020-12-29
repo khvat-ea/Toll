@@ -1,0 +1,20 @@
+databaseChangeLog:
+  - changeSet:
+      id: Points_Device
+      author: khvat-ea
+      changes:
+        - createTable:
+            tableName: Points_Device
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                  name: time_point_taken
+                  type: BIGINT
+              - column:
+                  name: id_device
+                  type: INT
+              - column:
+                  name: coords
+                  type: VARCHAR(255)
