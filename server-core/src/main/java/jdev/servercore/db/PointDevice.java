@@ -21,7 +21,7 @@ public class PointDevice {
 
     @Override
     public String toString() {
-        return "PointGPS{" +
+        return "Points_Device{" +
                 ", time='" + timePoint +
                 ", idDevice='" + idDevice +
                 ", autoId='" + coords +
